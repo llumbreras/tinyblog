@@ -10,7 +10,7 @@ class TinyBlog
   
   def tweet(message)
     if message.length <= 140
-      @client.update(messge)
+      @client.update(message)
     else
       puts "Message to long to tweet!"
     end
@@ -39,6 +39,5 @@ end
 
 
 blogger = TinyBlog.new
-blogger.tweet("TinyBlog Initialized")
 blogger.run
 

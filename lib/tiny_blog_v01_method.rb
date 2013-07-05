@@ -9,7 +9,7 @@ class TinyBlog
   end
 
   def tweet(message)
-    @client.update(messge)
+    @client.update(message)
   end
 
 end
